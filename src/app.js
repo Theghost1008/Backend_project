@@ -11,6 +11,6 @@ app.use(cors({
 app.use(express.json({limit: "16kb"}))//accepting json, json in configured ; form is filled we got data
 app.use(express.urlencoded({extended:true, limit:"16kb"}))
 app.use(express.static("public"))
-app.usea(cookieParser())
+app.use(cookieParser())
 
 export {app}
