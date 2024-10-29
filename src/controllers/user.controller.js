@@ -5,10 +5,6 @@ import {uploadOnCloudinary} from "../utils/cloudinary.js";
 import {apiResponse} from "../utils/apiResponse.js";
 
 const registerUser = asyncHandler( async (req,res)=>{
-    // res.status(200).json({
-    //     message: "Hello kanitexe"
-    // })
-    
     //get user details from frontend
     //validation - not empty
     //check if user already exists: username, email
